@@ -3,7 +3,7 @@
 # Vet Clinic 1
 Find all animals whose name ends in "mon".
 > ![Query 1](https://user-images.githubusercontent.com/82343891/183506807-334b4c8a-f0ba-400d-a3d3-7da56197ecd4.png)
-> List the name of all animals born between 2016 and 2019.
+List the name of all animals born between 2016 and 2019.
 > ![Query 2](https://user-images.githubusercontent.com/82343891/183506979-1476cc70-8b6f-463a-9257-cc6d3247e8e2.png)
 > List the name of all animals that are neutered and have less than 3 escape attempts.
 > ![Query 3](https://user-images.githubusercontent.com/82343891/183507999-2d35e951-c8fc-47a5-82a6-43b2461abcc7.png)
