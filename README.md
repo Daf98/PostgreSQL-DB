@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Vet Clinic
+> Database of animals in a vet clinic.
 
 ## Author
 
