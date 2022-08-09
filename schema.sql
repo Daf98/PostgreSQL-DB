@@ -8,3 +8,5 @@ escape_attempts INT NOT NULL,
 neutered BOOL NOT NULL,
 weight_kg DEC NOT NULL
 );
+
+ALTER TABLE animals ADD species TEXT;
