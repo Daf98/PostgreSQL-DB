@@ -60,7 +60,7 @@ INSERT INTO visits(vet_id, animal_id, date_of_visit) VALUES(2, 14, '2020-03-08')
 INSERT INTO visits(vet_id, animal_id, date_of_visit) VALUES(2, 14, '2020-05-14');
 INSERT INTO visits(vet_id, animal_id, date_of_visit) VALUES(3, 15, '2021-05-04');
 INSERT INTO visits(vet_id, animal_id, date_of_visit) VALUES(4, 16, '2021-02-24');
-INSERT INTO visits(vet_id, animal_id, date_of_visit) VALUES(2, 17, '2019-12-01');
+INSERT INTO visits(vet_id, animal_id, date_of_visit) VALUES(2, 17, '2019-12-21');
 INSERT INTO visits(vet_id, animal_id, date_of_visit) VALUES(1, 17, '2020-08-10');
 INSERT INTO visits(vet_id, animal_id, date_of_visit) VALUES(2, 17, '2021-04-07');
 INSERT INTO visits(vet_id, animal_id, date_of_visit) VALUES(3, 18, '2019-09-29');
