@@ -36,5 +36,30 @@ ALTER TABLE animals ADD owner_id INT;
 ALTER TABLE animals
 ADD CONSTRAINT fk_owner_id FOREIGN KEY (owner_id) REFERENCES owners (id);
 
+CREATE TABLE vets(
+id INT GENERATED ALWAYS AS IDENTITY,
+name TEXT NOT NULL,
+age INT NOT NULL,
+date_of_graduation DATE NOT NULL
+);
 
+CREATE TABLE specializations(
+vet_id INT,
+species_id INT
+);
 
+CREATE TABLE visits(
+vet_id INT,
+animal_id INT,
+date_of_visit DATE
+);
+
+INSERT INTO vets(name, age, date_of_graduation) VALUES('William Thatcher', 45, '2000-04-23');
+INSERT INTO vets(name, age, date_of_graduation) VALUES('Maisy Smith', 26, '2019-01-17');
+INSERT INTO vets(name, age, date_of_graduation) VALUES('Stephanie Mendez', 64, '1981-05-04');
+INSERT INTO vets(name, age, date_of_graduation) VALUES('Jack Harness', 38, '2008-06-08');
+
+INSERT INTO specializations(vet_id, species_id) VALUES (1, 1);
+INSERT INTO specializations(vet_id, species_id) VALUES (3, 1);
+INSERT INTO specializations(vet_id, species_id) VALUES (3, 2);
+INSERT INTO specializations(vet_id, species_id) VALUES (4, 2);
