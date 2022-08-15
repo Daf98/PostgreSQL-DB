@@ -63,3 +63,11 @@ INSERT INTO specializations(vet_id, species_id) VALUES (1, 1);
 INSERT INTO specializations(vet_id, species_id) VALUES (3, 1);
 INSERT INTO specializations(vet_id, species_id) VALUES (3, 2);
 INSERT INTO specializations(vet_id, species_id) VALUES (4, 2);
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX visits_animal_id ON visits(animal_id ASC);
+DROP INDEX visits_animal_id
+CREATE INDEX visits_vet_asc ON visits(vet_id ASC);
+CREATE INDEX owners_email_asc ON owners(email ASC);
