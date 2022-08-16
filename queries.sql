@@ -140,3 +140,7 @@ JOIN specializations ON species.id = specializations.species_id
 JOIN visits ON visits.vet_id = specializations.vet_id
 GROUP BY species.name
 ORDER BY COUNT(visits.date_of_visit) DESC LIMIT 1;
+
+SELECT COUNT(*) FROM visits where animal_id = 4;
+SELECT * FROM visits where vet_id = 2;
+SELECT * FROM owners where email = 'owner_18327@mail.com';
